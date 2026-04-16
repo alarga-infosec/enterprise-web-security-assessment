@@ -51,3 +51,17 @@ The application must enforce proper authorization checks.
 The backend should verify that the authenticated user owns the BasketItem before allowing any modification.
 
 Access control must not rely on user-controlled input.
+
+
+## Proof of Concept
+
+### Before Attack
+<img width="1145" height="377" alt="before" src="https://github.com/user-attachments/assets/a3dd2926-f837-4532-9da0-f6dca520fcd4" />
+
+
+### Burp Request (Exploit)
+<img width="1207" height="628" alt="burp" src="https://github.com/user-attachments/assets/8f7f39f2-7c3a-4d77-9754-0e752fe6feaf" />
+
+
+### After Attack
+<img width="1151" height="381" alt="after" src="https://github.com/user-attachments/assets/83d87eb3-78cd-4f2e-82b5-8996239791e3" />
