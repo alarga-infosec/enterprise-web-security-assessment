@@ -26,7 +26,7 @@ The application fails to properly validate whether the authenticated user owns t
    - Set the request body to:
      ```json
      {
-       "quantity": 99
+       "quantity": 6
      }
      ```
 
